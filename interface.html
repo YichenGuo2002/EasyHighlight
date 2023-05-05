@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://ssl.gstatic.com/docs/script/css/add-ons.css" rel="stylesheet" />
+    <base target="_top">
+  </head>
+  <body>
+    <p> Hello world (in html)</p> 
+    <p id = "tester">Hi</p>
+    <button id = "starter">Highlight Mode Off</button>
+  </body>
+
+  <script>
+    const starter = document.getElementById("starter");
+
+    starter.addEventListener("click", () =>{
+      if(starter.innerText == "Highlight Mode On"){
+        starter.innerText = "Highlight Mode Off";
+      }else{
+        starter.innerText = "Highlight Mode On";
+        google.script.run.highlight()
+      }
+    })
+  </script>
+</html>
