@@ -1,13 +1,7 @@
- - Assignment Name: Bezel Challenge: E-commerce Model
+ - Assignment Name: My Easy Highliter
 
- - Assignment Tech Stack: React (Hooks), Tailwind CSS, Javascript/HTML/CSS
+ - Assignment Tech Stack: Google App Script, Javascript DOM, HTML
 
- - Description: An e-commerce model with accept and reject sale features. Interact with API endpoints to fetch product information and post user responses. The main code can be found at src/App.js
+ - Description: A highlighter tool for Google Doc users to highlight text easily without selecting the button every time.
 
-<img src="./src/assets/popUp.png" alt="pop up page"/>
-<img src="./src/assets/productPage.png" alt="product page"/>
-
- - How to run: At the project's root folder, use the command:
- ```
-npm start
- ```
+ - How to run: Copy the code to Google App Script, deploy on selected Google doc. Open the extension.
