@@ -1,4 +1,4 @@
- - Assignment Name: My Easy Highliter
+ - Assignment Name: My-Highliter
 
  - Assignment Tech Stack: Google App Script, Javascript DOM, HTML
 
